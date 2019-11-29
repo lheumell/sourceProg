@@ -1,0 +1,4 @@
+//Demarrer serveur 
+C:\Program Files\PostgreSQL\10>"bin\pg_ctl" start -N "postgresql-x64-10" -D "data"
+
+
