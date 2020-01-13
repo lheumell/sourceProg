@@ -1,7 +1,8 @@
 //Demarrer serveur windows
 C:\Program Files\PostgreSQL\10>"bin\pg_ctl" start -N "postgresql-x64-10" -D "data"
 
-//Cmd postgres ubuntu 
+//Cmd postgres ubuntu
+Demarrer serveur : sudo service postgresql start
 Se connecter à sa BDD :  sudo -u postgres -i
 Se connecter à son PSQL : psql m3016
 Regarder ses schémas : show search_path;
