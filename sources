@@ -9,3 +9,9 @@ Regarder ses schémas : show search_path;
 Mettre ses schémas en place : SET search_path TO tp3106 ;
 Regarder ses relations : \d
 Regarder schémas : \dn
+
+
+//Xming
+install Xming 
+open file .bashrc 
+write to end : export DISPLAY=:0
